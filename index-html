@@ -1,0 +1,16 @@
+<body>
+    <div>
+    <h1>Calcolatore Automatico di Acqua</h1>
+    </div>
+<section>
+    <p>Questo <b>calcolatore automatico di acqua </b> ti permette di calcolare il tuo <b>fabbisogno di acqua in litri</b>, in base al tuo peso e alla tua attività fisica. <br>
+    Inserisci all'interno del form <b>il tuo peso e, approssimativamente, il numero di calorie bruciate al giorno</b> con la sola attività fisica e <b>scopri quanta acqua dovresti bere al giorno.</b></p>
+    </section>
+
+   <form>
+    <input id="peso" placeholder="peso" name="peso" type="number"> <br>
+    <input id="calorie" placeholder="calorie bruciate" name="calorie" type="number"> <br>
+    <button type="button" onclick="acquabere()">Quanta Acqua?</button><br>
+   </form> 
+   <h3 id="result1"></h3>
+</body>
